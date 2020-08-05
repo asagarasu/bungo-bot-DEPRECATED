@@ -55,7 +55,7 @@ mode exclusive | Switch the command prefix to hashtag only at the current window
 #### general
 
 Command | Effect | Only to me
------------- | -------------  | ------------- | -------------
+------------ | -------------  | -------------
 deck | Trigger a random deck draw given the following two parameters, such as `.deck 雷诺曼 两张纸牌`. When no parameters or invalid ones are given, respond with respective instructions. | No 
 r/roll | Trigger a random dice roll given the following one parameter, such as `.roll 2d3` will roll two dice of 3 faces. When no parameter is given, roll a single dice of 100 faces. | No 
 rac/ra/rc | Trigger a random dice roll given the following two parameter, such as `.ra message 80` will roll one dice of 80 faces along the given message. | No 
