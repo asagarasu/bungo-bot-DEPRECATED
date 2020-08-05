@@ -1,0 +1,56 @@
+{
+    "this_bot": {
+        "keys": {
+            "贴贴": "affection", 
+            "抱抱": "comfort"
+        },
+        "call": [
+            "call1",
+            "call2"
+        ],
+        "blank": [
+            "blank1",
+            "blank2"
+        ],
+        "request": {
+            "affection": [
+                "affection1",
+                "affection2"
+            ],
+            "comfort": [
+                "comfort1",
+                "comfort2"
+            ]
+        }
+    },
+    "greetings": {
+        "morning": {
+            "ok": [
+                "morning ok1",
+                "morning ok2"
+            ],
+            "late": [
+                "morning late1",
+                "morning late2"
+            ],
+            "early": [
+                "morning early1",
+                "morning early2"
+            ]
+        },
+        "night": {
+            "ok": [
+                "night ok1",
+                "night ok2"
+            ],
+            "late": [
+                "night late1",
+                "night late2"
+            ],
+            "early": [
+                "night early1",
+                "night early2"
+            ]
+        }
+    }
+}
