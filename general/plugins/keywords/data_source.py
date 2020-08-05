@@ -24,7 +24,7 @@ async def get_is_night(data: dict, user: str) -> int:
         msg = await utils.get_random_entry(data['early'])
         return msg
 
-async def get_this_bot(data: dict, stripped_arg: str) -> str:
+async def get_kmmso(data: dict, stripped_arg: str) -> str:
     for key in data['keys'].keys():
         if key in stripped_arg:
             key = data['keys'][key]
